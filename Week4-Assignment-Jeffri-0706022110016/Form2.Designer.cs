@@ -42,6 +42,7 @@ namespace Week4_Assignment_Jeffri_0706022110016
             // 
             // tBTelp2
             // 
+            this.tBTelp2.Enabled = false;
             this.tBTelp2.Location = new System.Drawing.Point(116, 114);
             this.tBTelp2.Name = "tBTelp2";
             this.tBTelp2.Size = new System.Drawing.Size(152, 27);
@@ -49,6 +50,7 @@ namespace Week4_Assignment_Jeffri_0706022110016
             // 
             // tBAlamat2
             // 
+            this.tBAlamat2.Enabled = false;
             this.tBAlamat2.Location = new System.Drawing.Point(116, 69);
             this.tBAlamat2.Name = "tBAlamat2";
             this.tBAlamat2.Size = new System.Drawing.Size(513, 27);
@@ -56,6 +58,7 @@ namespace Week4_Assignment_Jeffri_0706022110016
             // 
             // tBNama2
             // 
+            this.tBNama2.Enabled = false;
             this.tBNama2.Location = new System.Drawing.Point(116, 18);
             this.tBNama2.Name = "tBNama2";
             this.tBNama2.Size = new System.Drawing.Size(310, 27);

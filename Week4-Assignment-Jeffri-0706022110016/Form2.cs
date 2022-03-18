@@ -51,14 +51,24 @@ namespace Week4_Assignment_Jeffri_0706022110016
 
         private void buttonNextData_Click(object sender, EventArgs e)
         {
-            if (dataSaatIni == 9)
+            if (FormPenambahanData.jumlahData != 0)
             {
-                MessageBox.Show("Data sudah data terakhir");
+                if (dataSaatIni == FormPenambahanData.jumlahData - 1)
+                {
+                    MessageBox.Show("Data sudah data terakhir");
+                }
+                else
+                {
+                    dataSaatIni++;
+                    MenampilkanData();
+                }
             }
-            else
+            else 
             {
-                dataSaatIni++;
-                MenampilkanData();
+                if (dataSaatIni == FormPenambahanData.jumlahData)
+                {
+                    MessageBox.Show("Data sudah data terakhir");
+                }
             }
         }
     }
