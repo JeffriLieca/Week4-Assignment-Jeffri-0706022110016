@@ -31,6 +31,10 @@ namespace Week4_Assignment_Jeffri_0706022110016
                 Data[jumlahData, 1] = tBAlamat1.Text;
                 Data[jumlahData, 2] = tBTelp1.Text;
                 jumlahData++;
+                tBNama1.Clear();
+                tBAlamat1.Clear();
+                tBTelp1.Clear();
+                tBNama1.Focus();
             }
         }
 
